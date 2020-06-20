@@ -80,9 +80,9 @@
     <th>Plex Media Server</th>
   </tr>
   <tr>
-    <th><a href="" target="_blank"><img src="" width=100 height=100/></a></th>
-    <th><a href="" target="_blank"><img src="" width=100 height=100/></a></th>
-    <th><a href="" target="_blank"><img src="" width=100 height=100/></a></th>
+    <th><a href="https://store.google.com/product/chromecast" target="_blank"><img src="https://i5.walmartimages.com/asr/ce02c3e2-ddb0-48ce-9519-1870901b3b15_3.dfbbf2da6fa65c08bf68a650edc5ee03.jpeg" width=100 height=100/></a></th>
+    <th><a href="https://support.google.com/googlenest/answer/7072284?hl=en" target="_blank"><img src="https://i5.walmartimages.ca/images/Large/664/833/6000197664833.jpg?odnBound=460" width=100 height=100/></a></th>
+    <th><a href="https://www.plex.tv/es/?langr=1" target="_blank"><img src="https://ih0.redbubble.net/image.197089200.4025/sticker,375x360-bg,ffffff.png" width=100 height=100/></a></th>
   </tr>
 
 </table>
@@ -105,12 +105,12 @@
     <th>SSH & Web Terminal</th>
   </tr>
   <tr>
-    <th><a href="" target="_blank"><img src="" width=100 height=100/></a></th>
-    <th><a href="" target="_blank"><img src="" width=100 height=100/></a></th>
-    <th><a href="" target="_blank"><img src="" width=100 height=100/></a></th>
-    <th><a href="" target="_blank"><img src="" width=100 height=100/></a></th>
-    <th><a href="" target="_blank"><img src="" width=100 height=100/></a></th>
-    <th><a href="" target="_blank"><img src="" width=100 height=100/></a></th>
+    <th><a href="https://hacs.xyz/" target="_blank"><img src="https://d33wubrfki0l68.cloudfront.net/0e05ce1e6d0ca7b8ec22febe0ed8b775f13a0c0d/a5474/img/hacs-logo.svg" width=100 height=100/></a></th>
+    <th><a href="https://github.com/hassio-addons/addon-home-panel" target="_blank"><img src="https://raw.githubusercontent.com/timmo001/home-panel/master/documentation/resources/banner.png" width=100 height=100/></a></th>
+    <th><a href="https://www.influxdata.com/products/influxdb-overview/" target="_blank"><img src="https://discoursecommunity.s3.dualstack.us-west-1.amazonaws.com/uploads/influxdata/original/2X/0/0c2a909efb7d83eba6621bdcf4cc69c290325135.png" width=100 height=100/></a></th>
+    <th><a href="https://github.com/hassio-addons/addon-log-viewer" target="_blank"><img src="https://image.freepik.com/free-icon/log-file-format-symbol_318-45393.jpg" width=100 height=100/></a></th>
+    <th><a href="https://tautulli.com/" target="_blank"><img src="https://avatars3.githubusercontent.com/u/34385001?s=400&v=4" width=100 height=100/></a></th>
+    <th><a href="https://github.com/hassio-addons/addon-ssh" target="_blank"><img src="https://silicondales.com/wp-content/uploads/2018/09/ssh-icon-300x300.jpg" width=100 height=100/></a></th>
   </tr>
 
 </table>
@@ -131,10 +131,10 @@
     <th>HP Envy 5010</th>
   </tr>
   <tr>
-    <th><a href="" target="_blank"><img src="" width=100 height=100/></a></th>
-    <th><a href="" target="_blank"><img src="" width=100 height=100/></a></th>
-    <th><a href="" target="_blank"><img src="" width=100 height=100/></a></th>
-    <th><a href="" target="_blank"><img src="" width=100 height=100/></a></th>
+    <th><a href="https://es.aliexpress.com/item/32803186417.html?spm=a2g0o.productlist.0.0.54191b06FjQzLE&algo_pvid=6df9236d-1ece-4640-b9ee-8333fa72ac71&algo_expid=6df9236d-1ece-4640-b9ee-8333fa72ac71-2&btsid=0b0a182b15926707488172895ebaf2&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_" target="_blank"><img src="https://xiaomi-mi.com/uploads/ck/xiaomi-mi-gateway-2-001.jpg" width=100 height=100/></a></th>
+    <th><a href="https://es.aliexpress.com/item/32821192659.html?spm=a2g0o.productlist.0.0.54191b06FjQzLE&algo_pvid=6df9236d-1ece-4640-b9ee-8333fa72ac71&algo_expid=6df9236d-1ece-4640-b9ee-8333fa72ac71-0&btsid=0b0a182b15926707488172895ebaf2&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_" target="_blank"><img src="https://www.nziomarket.com/958-large_default/xiaomi-mijia-mi-smart-home-multi-mode-gateway-v3-con-adaptador-eu.jpg" width=100 height=100/></a></th>
+    <th><a href="https://es.aliexpress.com/item/4000816404730.html?spm=a2g0o.productlist.0.0.68f35d0fQtyj8m&algo_pvid=019e7b4e-0e9a-413a-b22e-5e56d2758058&algo_expid=019e7b4e-0e9a-413a-b22e-5e56d2758058-0&btsid=0b0a050b15926709440294024e68ed&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_" target="_blank"><img src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/6B/97/438b0c1f-f9f5-478c-b481-877267eef0da.JPG" width=100 height=100/></a></th>
+    <th><a href="https://support.hp.com/en-en/drivers/selfservice/model/14095645" target="_blank"><img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06141390.png" width=100 height=100/></a></th>
   </tr>
 
 </table>
