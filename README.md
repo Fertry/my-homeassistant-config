@@ -15,11 +15,13 @@
 </ol>
 
 <h2> Components 🌟 </h2>
-<center>
+<div align="center" id="menu">
   
   | <a href="https://github.com/Fertry/my-homeassistant-config#devices">Devices</a> | <a href="https://github.com/Fertry/my-homeassistant-config#sensors">Sensors</a> | <a href="https://github.com/Fertry/my-homeassistant-config#media">Media</a> | <a href="https://github.com/Fertry/my-homeassistant-config#apps">Apps</a> | <a href="https://github.com/Fertry/my-homeassistant-config#others">Others</a> | <a href="">TO-DO</a> | <a href="https://fertry.tech" target="_blank">Blog</a> |
 
-</center>
+</div>
+
+<div align="center" id="devices">
 
 <a name="devices">
   <h3> Devices </h3>
@@ -32,12 +34,14 @@
     <th>Power Adaptor 5V-3A</th>
   </tr>
   <tr>
-    <th><a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b" target="_blank"><img src="https://imgur.com/a/12ktfqj"/></a></th>
-    <th><a href="https://www.sdcard.org/developers/overview/speed_class/" target="_blank"><img src="https://imgur.com/a/6HQI3TJ"/></a></th>
-    <th><a href="https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md" target="_blank"><img src="https://imgur.com/a/JV0Um16"/></a></th>
+    <th><a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b" target="_blank"><img src="https://www.notebookcheck.com/fileadmin/Notebooks/News/_nc3/raspberryPi4_2.jpg" width=100 height=100/></a></th>
+    <th><a href="https://www.sdcard.org/developers/overview/speed_class/" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.explicit.bing.net%2Fth%3Fid%3DOIP.-R7NGTLsjybcEIUS5Q7sUgHaGE%26pid%3DApi&f=1" width=100 height=100/></a></th>
+    <th><a href="https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fecx.images-amazon.com%2Fimages%2FI%2F51UqUKxy2aL.jpg&f=1&nofb=1"width=100 height=100/></a></th>
   </tr>
 
 </table>
+
+</div>
 
 <a name="sensors">
   <h3> Sensors </h3>
