@@ -86,11 +86,13 @@
     <th>Google Chromecast</th>
     <th>2x Google Home Mini</th>
     <th>Plex Media Server</th>
+    <th>Synology DSM</th>
   </tr>
   <tr>
     <th><a href="https://store.google.com/product/chromecast" target="_blank"><img src="https://i5.walmartimages.com/asr/ce02c3e2-ddb0-48ce-9519-1870901b3b15_3.dfbbf2da6fa65c08bf68a650edc5ee03.jpeg" width=100 height=100/></a></th>
     <th><a href="https://support.google.com/googlenest/answer/7072284?hl=en" target="_blank"><img src="https://i5.walmartimages.ca/images/Large/664/833/6000197664833.jpg?odnBound=460" width=100 height=100/></a></th>
     <th><a href="https://www.plex.tv/es/?langr=1" target="_blank"><img src="https://ih0.redbubble.net/image.197089200.4025/sticker,375x360-bg,ffffff.png" width=100 height=100/></a></th>
+    <th><a href="https://www.synology.com/en-en/products/series/home" target="_blank"><img src="https://www.synology.com/img/products/detail/DS720plus/heading@2x.png" width=100 height=100/></a></th>
   </tr>
 
 </table>
