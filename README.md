@@ -45,6 +45,10 @@
 
 </div>
 
+<p>
+  Along with the Raspberry Pi 4B+, that Home Assistant runs on, I use two Raspberrys Pi Zero W to run Pi-Hole and Grafana separately. In all cases, Application Class 2 microSD cards and power supplies with sufficient amperage are used.
+</p>
+
 <div align="center" id="sensors">
 
 <a name="sensors">
@@ -67,6 +71,10 @@
 
 </div>
 
+<p>
+  I use Xiaomi thermometers that record temperature and humidity with good precision, connected via Zigbee/Bluetooth via a gateway.
+</p>
+
 <div align="center" id="media">
 
 <a name="media">
@@ -88,6 +96,10 @@
 </table>
 
 </div>
+
+<p>
+  I use a Chromecast to stream video and two Home Mini (paired with each other) to play music. All this from a Plex server that saves the records to Tautulli.
+</p>
 
 <div align="center" id="apps">
 
@@ -121,6 +133,10 @@
 
 </div>
 
+<p>
+  HACS allows you to install third-party integrations. In addition to those, I use the HASS integrations of Home Panel to display the data on a tablet, Log Viewer to view logs dynamically and SSH & Web Terminal to connect to the Raspberry remotely. I also use InfluxDB in the same instance of Home Assistant to generate records of the data which I then transfer to Grafana (separate) for display. I use Tautulli to keep logs from my Plex server and Pi-Hole (separate) as an ad blocking machine.
+</p>
+
 <div align="center" id="others">
 
 <a name="others">
@@ -145,11 +161,17 @@
 
 </div>
 
-<div align="center" id="todo">
+<p>
+  Xiaomi gateways allow me to connect Xiaomi devices and sensors with ease while the Zigbee adapter acts as a universal adapter. I also integrate my HP printer.
+</p>
+
+<div id="todo">
 
 <a name="todo">
-  <h3> Others </h3>
+  <h3> TO-DO </h3>
 </a>
+
+<p>Pending...</p>
 
 <ol>
   <li><strike>Update the Grafana connection to InfluxDB</strike></li>
