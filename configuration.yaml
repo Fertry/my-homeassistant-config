@@ -1,0 +1,101 @@
+# Configuración por defecto:
+homeassistant:
+  name: Home
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  elevation: !secret elevation 
+  unit_system: metric
+  temperature_unit: C
+  time_zone: !secret timezone
+  packages: !include_dir_named integrations
+  customize: !include customize.yaml
+  
+lovelace:
+  mode: yaml
+frontend:
+  themes: !include_dir_merge_named themes
+  javascript_version: latest
+person:
+  - name: Alejandro
+    id: !secret id
+    device_trackers:
+      - device_tracker.pixel_2_xl
+weather:
+  - platform: openweathermap
+    api_key: !secret openweathermapkeyforweather
+    mode: daily
+updater:
+  include_used_components: true
+config:
+conversation:
+history:
+logbook:
+map:
+mobile_app:
+api:
+ssdp:
+sun:
+http:
+stream:
+system_health:
+zeroconf:
+discovery:
+media_extractor:
+
+# Otras ubicaciones:
+zone:
+  - name: Location 1
+    latitude: !secret location1_latitude 
+    longitude: !secret location1_longitude  
+    radius: 100
+
+  - name: Location 2
+    latitude: !secret location2_latitude 
+    longitude: !secret location2_longitude  
+    radius: 100
+
+  - name: Location 3
+    latitude: !secret location3_latitude 
+    longitude: !secret location3_longitude  
+    radius: 100
+
+# Text to speech:
+tts:
+  - platform: google_translate
+    language: es
+
+# Google:
+
+# InfluxDB:
+influxdb:
+  host: a0d7b954-influxdb
+  port: 8086
+  database: !secret database
+  username: !secret influxUser
+  password: !secret influxPass
+  max_retries: 3
+  default_measurement: state
+
+# Iconos para Home Assistant:
+panel_iframe:
+  tautulli:
+    title: Tautulli
+    icon: mdi:filmstrip
+    url: http://homeassistant:8181
+
+# Incluir:
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+# HACS:
+hacs:
+  token: !secret hacs_token
+  sidepanel_title: HACS
+  sidepanel_icon: mdi:alpha-c-box
+  appdaemon: true
+  netdaemon: true
+  release_limit: 5
+  experimental: true
+   

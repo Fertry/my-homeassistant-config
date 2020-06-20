@@ -1,0 +1,14 @@
+sensor:
+  - platform: waze_travel_time
+    name: Time to Location 1
+    origin: zone.home
+    destination: zone.location1
+    region: 'EU'
+    units: metric 
+
+  - platform: waze_travel_time
+    name: Time to Location 2
+    origin: zone.home
+    destination: zone.location2
+    region: 'EU'
+    units: metric 

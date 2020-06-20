@@ -1,0 +1,11 @@
+sensor:
+  - platform: steam_online
+    api_key: !secret steam_api
+    accounts:
+      - !secret steam_account 
+
+  - platform: template
+    sensors:
+      steam_game:
+        friendly_name: "Game"
+        value_template: "{{ states.sensor.steam_id.attributes.game }}"
