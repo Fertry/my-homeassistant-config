@@ -17,7 +17,7 @@
 <h2> Components 🌟 </h2>
 <div align="center" id="menu">
   
-  | <a href="https://github.com/Fertry/my-homeassistant-config#devices">Devices</a> | <a href="https://github.com/Fertry/my-homeassistant-config#sensors">Sensors</a> | <a href="https://github.com/Fertry/my-homeassistant-config#media">Media</a> | <a href="https://github.com/Fertry/my-homeassistant-config#apps">Apps</a> | <a href="https://github.com/Fertry/my-homeassistant-config#others">Others</a> | <a href="">TO-DO</a> | <a href="https://fertry.tech" target="_blank">Blog</a> |
+  | <a href="https://github.com/Fertry/my-homeassistant-config#devices">Devices</a> | <a href="https://github.com/Fertry/my-homeassistant-config#sensors">Sensors</a> | <a href="https://github.com/Fertry/my-homeassistant-config#media">Media</a> | <a href="https://github.com/Fertry/my-homeassistant-config#apps">Apps</a> | <a href="https://github.com/Fertry/my-homeassistant-config#others">Others</a> | <a href="https://github.com/Fertry/my-homeassistant-config#todo">TO-DO</a> | <a href="https://fertry.tech" target="_blank">Blog</a> |
 
 </div>
 
@@ -103,6 +103,8 @@
     <th>Log Viewer</th>
     <th>Tautulli</th>
     <th>SSH & Web Terminal</th>
+    <th>Grafana</th>
+    <th>Pi-Hole</th>
   </tr>
   <tr>
     <th><a href="https://hacs.xyz/" target="_blank"><img src="https://d33wubrfki0l68.cloudfront.net/0e05ce1e6d0ca7b8ec22febe0ed8b775f13a0c0d/a5474/img/hacs-logo.svg" width=100 height=100/></a></th>
@@ -111,6 +113,8 @@
     <th><a href="https://github.com/hassio-addons/addon-log-viewer" target="_blank"><img src="https://image.freepik.com/free-icon/log-file-format-symbol_318-45393.jpg" width=100 height=100/></a></th>
     <th><a href="https://tautulli.com/" target="_blank"><img src="https://avatars3.githubusercontent.com/u/34385001?s=400&v=4" width=100 height=100/></a></th>
     <th><a href="https://github.com/hassio-addons/addon-ssh" target="_blank"><img src="https://silicondales.com/wp-content/uploads/2018/09/ssh-icon-300x300.jpg" width=100 height=100/></a></th>
+    <th><a href="https://grafana.com/" target="_blank"><img src="http://www.d0wn.com/wp-content/uploads/grafana-logo-1.jpg" width=100 height=100/></a></th>
+    <th><a href="https://pi-hole.net/" target="_blank"><img src="https://i2.wp.com/pi-hole.net/wp-content/uploads/2016/12/Vortex-R.png?zoom=1.75&w=3840&ssl=1" width=100 height=100/></a></th>
   </tr>
 
 </table>
@@ -138,5 +142,20 @@
   </tr>
 
 </table>
+
+</div>
+
+<div align="center" id="todo">
+
+<a name="todo">
+  <h3> Others </h3>
+</a>
+
+<ol>
+  <li><strike>Update the Grafana connection to InfluxDB</strike></li>
+  <li>Implement the Xiaomi Gateway V2</li>
+  <li>Implement the ESP32</li>
+  <li>Implement the Zigbee CC2531 Adaptor</li>
+</ol>
 
 </div>
