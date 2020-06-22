@@ -178,9 +178,10 @@
 <ol>
   <li><strike>Update the Grafana connection to InfluxDB</strike></li>
   <li><strike>Upload the configuration.yaml</strike></li>
-  <li>Implement the Xiaomi Gateway V2</li>
+  <li><strike>Implement the Xiaomi Gateway V2</strike></li>
   <li>Implement the ESP32</li>
   <li>Implement the Zigbee CC2531 Adaptor</li>
+  <li>Add the eWeLink switch to the configuration</li>
 </ol>
 
 </div>
