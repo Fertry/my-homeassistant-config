@@ -112,6 +112,12 @@ views:
           - entity: sensor.owm_wind_bearing
             name: Dirección viento
             icon: mdi:angle-acute
+      - type: button
+        entity: switch.sonoff
+        name: Enchufe Dormitorio
+        show_name: true
+        show_icon: true
+        state_color: true
 
   - path: multimedia
     title: Multimedia
@@ -177,6 +183,12 @@ views:
           - entity: sensor.pi_hole_domains_blocked
             name: Dominios bloqueados
             show_state: true
+      - type: alarm-panel
+        entity: alarm_control_panel.gateway_alarm 
+        name: Alarma
+        states:
+          - arm_home
+          - arm_away
 
   - path: oficina
     title: Oficina

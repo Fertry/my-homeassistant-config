@@ -104,3 +104,20 @@ xiaomi_aqara:
   discovery_retry: 15
   gateways:
     - key: !secret keyAqaraV2
+
+# Switch:
+sonoff:
+  username: !secret eweLinkUser
+  password: !secret eweLinkPass
+  scan_interval: 60
+  grace_period: 600
+  api_region: 'eu'
+  entity_prefix: true
+  debug: false
+
+# Alarms:
+alarm_control_panel:
+  - platform: manual
+    name: Alarma
+    code: !secret codigoDesactivacionAlarma
+    code_arm_required: !secret codigoActivacion
