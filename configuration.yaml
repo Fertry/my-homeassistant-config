@@ -98,4 +98,9 @@ hacs:
   netdaemon: true
   release_limit: 5
   experimental: true
-   
+
+# Xiaomi Gateways:
+xiaomi_aqara:
+  discovery_retry: 15
+  gateways:
+    - key: !secret keyAqaraV2
