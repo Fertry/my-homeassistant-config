@@ -179,8 +179,8 @@
     <th>Sonoff Switch</th>
   </tr>
   <tr>
-    <th><a href="https://www.amazon.es/gp/product/B07DWTWM5Z/" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51iBqwo6UBL._AC_SL1083_.jpg" width=100 height=100/></a></tr>
-    <th><a href="https://www.amazon.es/gp/product/B07M63PLBG/" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/41euo4NNauL._AC_SL1000_.jpg" width=100 height=100/></a></tr>
+    <th><a href="https://www.amazon.es/gp/product/B07DWTWM5Z/" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51iBqwo6UBL._AC_SL1083_.jpg" width=100 height=100/></a></th>
+    <th><a href="https://www.amazon.es/gp/product/B07M63PLBG/" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/41euo4NNauL._AC_SL1000_.jpg" width=100 height=100/></a></th>
   </tr>
 
 </table>
