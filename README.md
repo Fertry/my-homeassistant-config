@@ -167,6 +167,32 @@
   Xiaomi gateways allow me to connect Xiaomi devices and sensors with ease while the Zigbee adapter acts as a universal adapter. I also integrate my HP printer.
 </p>
 
+<div align="center" id="switch">
+
+<a name="switch">
+  <h3> Switch </h3>
+</a>
+
+<table>
+  <tr>
+    <th>Bagotte Switch</th>
+    <th>Sonoff Switch</th>
+  </tr>
+  <tr>
+    <th><a href="https://www.amazon.es/gp/product/B07DWTWM5Z/" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51iBqwo6UBL._AC_SL1083_.jpg" width=100 height=100/></a></tr>
+    <th><a href="https://www.amazon.es/gp/product/B07M63PLBG/" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/41euo4NNauL._AC_SL1000_.jpg" width=100 height=100/></a></tr>
+  </tr>
+
+</table>
+
+</div>
+
+<p>
+  Different plugs that I have distributed around the house of different brands.
+</p>
+
+<div>
+
 <div id="todo">
 
 <a name="todo">
