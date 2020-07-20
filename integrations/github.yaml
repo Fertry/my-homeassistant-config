@@ -1,0 +1,6 @@
+sensor:
+  - platform: github
+    access_token: !secret tokenGit
+    repositories:
+      - path: home-assistant/core
+        name: Home Assistant

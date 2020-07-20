@@ -1,0 +1,6 @@
+airvisual:
+    api_key: !secret airqApi
+    geographies:
+        city: !secret my_city
+        state: !secret my_state
+        country: !secret my_country

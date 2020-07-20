@@ -1,0 +1,5 @@
+sensor:
+  - platform: diskspace
+    name: Main Disk
+    path: "/"
+    unit_of_measure: "GB"

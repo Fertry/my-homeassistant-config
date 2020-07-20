@@ -12,20 +12,25 @@ homeassistant:
   
 lovelace:
   mode: yaml
+  
 frontend:
   themes: !include_dir_merge_named themes
   javascript_version: latest
+  
 person:
   - name: Alejandro
     id: !secret id
     device_trackers:
-      - device_tracker.pixel_2_xl
+      - device_tracker.my_phone
+      
 weather:
   - platform: openweathermap
     api_key: !secret openweathermapkeyforweather
     mode: daily
+    
 updater:
   include_used_components: true
+  
 config:
 conversation:
 history:
@@ -65,6 +70,10 @@ tts:
     language: es
 
 # Google:
+google:
+  client_id: !secret googleID
+  client_secret: !secret googleSecret
+  track_new_calendar: true
 
 # InfluxDB:
 influxdb:
@@ -76,14 +85,14 @@ influxdb:
   max_retries: 3
   default_measurement: state
 
-# Iconos para Home Assistant:
+# Icons for Home Assistant:
 panel_iframe:
   tautulli:
     title: Tautulli
     icon: mdi:filmstrip
-    url: http://homeassistant:8181
+    url: http://ip_from_tautulli:8181
 
-# Incluir:
+# Add:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
@@ -99,11 +108,11 @@ hacs:
   release_limit: 5
   experimental: true
 
-# Xiaomi Gateways:
-xiaomi_aqara:
-  discovery_retry: 15
-  gateways:
-    - key: !secret keyAqaraV2
+# Xiaomi Gateways: No longer supported. Now integrated via Lovelace
+#xiaomi_aqara:
+#  discovery_retry: 15
+#  gateways:
+#    - key: !secret keyAqaraV2
 
 # Switch:
 sonoff:
@@ -114,10 +123,3 @@ sonoff:
   api_region: 'eu'
   entity_prefix: true
   debug: false
-
-# Alarms:
-alarm_control_panel:
-  - platform: manual
-    name: Alarma
-    code: !secret codigoDesactivacionAlarma
-    code_arm_required: !secret codigoActivacion
