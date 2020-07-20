@@ -60,11 +60,13 @@
     <th>3x Xiaomi Mijia Thermometer (2020)</th>
     <th>1x Xiaomi Mijia Thermometer (2019)</th>
     <th>1x ESP32</th>
+    <th>1x Xiaomi Mijia Movement Sensor</th>
   </tr>
   <tr>
     <th><a href="https://es.aliexpress.com/item/4000406818501.html?spm=a2g0o.productlist.0.0.57d81792LvTVdV&algo_pvid=f39a1014-be43-4992-8844-bf59594a70a2&algo_expid=f39a1014-be43-4992-8844-bf59594a70a2-5&btsid=0b0a182b15926682168313025ebae2&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_" target="_blank"><img src="https://monkeyecho.com/wp-content/uploads/xiaomi-mijia-bluetooth-thermometer-hygrometer-2-smart-digital-lcd-screen.jpg" width=100 height=100/></a></th>
     <th><a href="https://es.aliexpress.com/item/32846083629.html?spm=a2g0o.productlist.0.0.57d81792LvTVdV&algo_pvid=f39a1014-be43-4992-8844-bf59594a70a2&algo_expid=f39a1014-be43-4992-8844-bf59594a70a2-10&btsid=0b0a182b15926682168313025ebae2&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2FNzEAAOSwFmxaUigH%2Fs-l300.jpg&f=1&nofb=1" width=100 height=100/></a></th>
     <th><a href="https://es.aliexpress.com/item/32864722159.html?spm=a2g0o.productlist.0.0.2efa683dScUYG9&algo_pvid=8557b67b-e94f-4b3c-8052-05c4895d565a&algo_expid=8557b67b-e94f-4b3c-8052-05c4895d565a-0&btsid=0b0a0ac215926682425545283e647e&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_" target="_blank"><img src="https://cdn-reichelt.de/bilder/web/xxl_ws/A300/SBC-NODEMCU-ESP32-01.png" width=100 height=100/></a></th>
+    <th><a href="https://es.aliexpress.com/item/32975083891.html?" target="_blank"><img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2018/12/10/source-img/20181210192400_35031.jpg" width=100 height=100/></a></th>
   </tr>
 
 </table>
@@ -205,9 +207,9 @@
   <li><strike>Update the Grafana connection to InfluxDB</strike></li>
   <li><strike>Upload the configuration.yaml</strike></li>
   <li><strike>Implement the Xiaomi Gateway V2</strike></li>
+  <li><strike>Add the eWeLink switch to the configuration</strike></li>
   <li>Implement the ESP32</li>
   <li>Implement the Zigbee CC2531 Adaptor</li>
-  <li>Add the eWeLink switch to the configuration</li>
 </ol>
 
 </div>
