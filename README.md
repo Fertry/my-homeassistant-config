@@ -29,16 +29,16 @@
 
 <table>
   <tr>
-    <th>Raspberry Pi 4B+</th>
+    <th>Raspberry Pi 4B</th>
     <th>MicroSD-Card 32GB</th>
     <th>Power Adaptor 5V-3A</th>
     <th>2x Raspberry Pi Zero W</th>
   </tr>
   <tr>
-    <th><a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b" target="_blank"><img src="https://www.notebookcheck.com/fileadmin/Notebooks/News/_nc3/raspberryPi4_2.jpg" width=100 height=100/></a></th>
-    <th><a href="https://www.sdcard.org/developers/overview/speed_class/" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.explicit.bing.net%2Fth%3Fid%3DOIP.-R7NGTLsjybcEIUS5Q7sUgHaGE%26pid%3DApi&f=1" width=100 height=100/></a></th>
-    <th><a href="https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fecx.images-amazon.com%2Fimages%2FI%2F51UqUKxy2aL.jpg&f=1&nofb=1" width=100 height=100/></a></th>
-    <th><a href="https://www.raspberrypi.org/products/raspberry-pi-zero-w/" target="_blank"><img src="https://www.raspberrypi.org/homepage-9df4b/static/9c6a7cd9c5f442d4279bd6862bef1657/a0db7/72a529ca180136e5ab43dcf1547253238e273b8b_pi-zero-w-tilt-1-1620x1080.jpg" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/332ACQD" target="_blank"><img src="https://www.notebookcheck.com/fileadmin/Notebooks/News/_nc3/raspberryPi4_2.jpg" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/336Uq5H" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.explicit.bing.net%2Fth%3Fid%3DOIP.-R7NGTLsjybcEIUS5Q7sUgHaGE%26pid%3DApi&f=1" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/357luUV" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fecx.images-amazon.com%2Fimages%2FI%2F51UqUKxy2aL.jpg&f=1&nofb=1" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/3bvtbFD" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/61KhS%2B7a6pL._AC_SL1000_.jpg" width=100 height=100/></a></th>
   </tr>
 
 </table>
@@ -46,7 +46,7 @@
 </div>
 
 <p>
-  Along with the Raspberry Pi 4B+, that Home Assistant runs on, I use two Raspberrys Pi Zero W to run Pi-Hole and Grafana separately. In all cases, Application Class 2 microSD cards and power supplies with sufficient amperage are used.
+  Along with the Raspberry Pi 4B, that Home Assistant runs on, I use two Raspberrys Pi Zero W to run Pi-Hole and Grafana separately. In all cases, Application Class 2 microSD cards and power supplies with sufficient amperage are used.
 </p>
 
 <div align="center" id="sensors">
@@ -59,14 +59,14 @@
   <tr>
     <th>3x Xiaomi Mijia Thermometer (2020)</th>
     <th>1x Xiaomi Mijia Thermometer (2019)</th>
-    <th>1x ESP32</th>
+    <th>3x ESP32</th>
     <th>1x Xiaomi Mijia Movement Sensor</th>
   </tr>
   <tr>
-    <th><a href="https://es.aliexpress.com/item/4000406818501.html?spm=a2g0o.productlist.0.0.57d81792LvTVdV&algo_pvid=f39a1014-be43-4992-8844-bf59594a70a2&algo_expid=f39a1014-be43-4992-8844-bf59594a70a2-5&btsid=0b0a182b15926682168313025ebae2&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_" target="_blank"><img src="https://monkeyecho.com/wp-content/uploads/xiaomi-mijia-bluetooth-thermometer-hygrometer-2-smart-digital-lcd-screen.jpg" width=100 height=100/></a></th>
-    <th><a href="https://es.aliexpress.com/item/32846083629.html?spm=a2g0o.productlist.0.0.57d81792LvTVdV&algo_pvid=f39a1014-be43-4992-8844-bf59594a70a2&algo_expid=f39a1014-be43-4992-8844-bf59594a70a2-10&btsid=0b0a182b15926682168313025ebae2&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2FNzEAAOSwFmxaUigH%2Fs-l300.jpg&f=1&nofb=1" width=100 height=100/></a></th>
-    <th><a href="https://es.aliexpress.com/item/32864722159.html?spm=a2g0o.productlist.0.0.2efa683dScUYG9&algo_pvid=8557b67b-e94f-4b3c-8052-05c4895d565a&algo_expid=8557b67b-e94f-4b3c-8052-05c4895d565a-0&btsid=0b0a0ac215926682425545283e647e&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_" target="_blank"><img src="https://cdn-reichelt.de/bilder/web/xxl_ws/A300/SBC-NODEMCU-ESP32-01.png" width=100 height=100/></a></th>
-    <th><a href="https://es.aliexpress.com/item/32975083891.html?" target="_blank"><img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2018/12/10/source-img/20181210192400_35031.jpg" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/3i6JM4T" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/41-zlO24wWL._AC_SL1000_.jpg" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/2QXlf6D" target="_blank"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2FNzEAAOSwFmxaUigH%2Fs-l300.jpg&f=1&nofb=1" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/3bvnt6J" target="_blank"><img src="https://cdn-reichelt.de/bilder/web/xxl_ws/A300/SBC-NODEMCU-ESP32-01.png" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/3347jx3" target="_blank"><img src="https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2018/12/10/source-img/20181210192400_35031.jpg" width=100 height=100/></a></th>
   </tr>
 
 </table>
@@ -94,7 +94,7 @@
     <th><a href="https://store.google.com/product/chromecast" target="_blank"><img src="https://i5.walmartimages.com/asr/ce02c3e2-ddb0-48ce-9519-1870901b3b15_3.dfbbf2da6fa65c08bf68a650edc5ee03.jpeg" width=100 height=100/></a></th>
     <th><a href="https://support.google.com/googlenest/answer/7072284?hl=en" target="_blank"><img src="https://i5.walmartimages.ca/images/Large/664/833/6000197664833.jpg?odnBound=460" width=100 height=100/></a></th>
     <th><a href="https://www.plex.tv/es/?langr=1" target="_blank"><img src="https://ih0.redbubble.net/image.197089200.4025/sticker,375x360-bg,ffffff.png" width=100 height=100/></a></th>
-    <th><a href="https://www.synology.com/en-en/products/series/home" target="_blank"><img src="https://www.synology.com/img/products/detail/DS720plus/heading@2x.png" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/3i5DEKo" target="_blank"><img src="https://www.synology.com/img/products/detail/DS720plus/heading@2x.png" width=100 height=100/></a></th>
   </tr>
 
 </table>
@@ -155,10 +155,10 @@
     <th>HP Envy 5010</th>
   </tr>
   <tr>
-    <th><a href="https://es.aliexpress.com/item/32803186417.html?spm=a2g0o.productlist.0.0.54191b06FjQzLE&algo_pvid=6df9236d-1ece-4640-b9ee-8333fa72ac71&algo_expid=6df9236d-1ece-4640-b9ee-8333fa72ac71-2&btsid=0b0a182b15926707488172895ebaf2&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_" target="_blank"><img src="https://xiaomi-mi.com/uploads/ck/xiaomi-mi-gateway-2-001.jpg" width=100 height=100/></a></th>
-    <th><a href="https://es.aliexpress.com/item/32821192659.html?spm=a2g0o.productlist.0.0.54191b06FjQzLE&algo_pvid=6df9236d-1ece-4640-b9ee-8333fa72ac71&algo_expid=6df9236d-1ece-4640-b9ee-8333fa72ac71-0&btsid=0b0a182b15926707488172895ebaf2&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_" target="_blank"><img src="https://www.nziomarket.com/958-large_default/xiaomi-mijia-mi-smart-home-multi-mode-gateway-v3-con-adaptador-eu.jpg" width=100 height=100/></a></th>
-    <th><a href="https://es.aliexpress.com/item/4000816404730.html?spm=a2g0o.productlist.0.0.68f35d0fQtyj8m&algo_pvid=019e7b4e-0e9a-413a-b22e-5e56d2758058&algo_expid=019e7b4e-0e9a-413a-b22e-5e56d2758058-0&btsid=0b0a050b15926709440294024e68ed&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_" target="_blank"><img src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/6B/97/438b0c1f-f9f5-478c-b481-877267eef0da.JPG" width=100 height=100/></a></th>
-    <th><a href="https://support.hp.com/en-en/drivers/selfservice/model/14095645" target="_blank"><img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06141390.png" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/35a4hKp" target="_blank"><img src="https://xiaomi-mi.com/uploads/ck/xiaomi-mi-gateway-2-001.jpg" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/2R27J1E" target="_blank"><img src="https://www.nziomarket.com/958-large_default/xiaomi-mijia-mi-smart-home-multi-mode-gateway-v3-con-adaptador-eu.jpg" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/3h17cHP" target="_blank"><img src="https://img.staticbg.com/thumb/large/oaupload/banggood/images/6B/97/438b0c1f-f9f5-478c-b481-877267eef0da.JPG" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/3lT0FCt" target="_blank"><img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06141390.png" width=100 height=100/></a></th>
   </tr>
 
 </table>
@@ -181,8 +181,8 @@
     <th>Sonoff Switch</th>
   </tr>
   <tr>
-    <th><a href="https://www.amazon.es/gp/product/B07DWTWM5Z/" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51iBqwo6UBL._AC_SL1083_.jpg" width=100 height=100/></a></th>
-    <th><a href="https://www.amazon.es/gp/product/B07M63PLBG/" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/41euo4NNauL._AC_SL1000_.jpg" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/2DzVF4p" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51iBqwo6UBL._AC_SL1083_.jpg" width=100 height=100/></a></th>
+    <th><a href="https://amzn.to/2R0ij9b" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/41euo4NNauL._AC_SL1000_.jpg" width=100 height=100/></a></th>
   </tr>
 
 </table>
@@ -208,7 +208,7 @@
   <li><strike>Upload the configuration.yaml</strike></li>
   <li><strike>Implement the Xiaomi Gateway V2</strike></li>
   <li><strike>Add the eWeLink switch to the configuration</strike></li>
-  <li>Implement the ESP32</li>
+  <li><strike>Implement the ESP32s</strike></li>
   <li>Implement the Zigbee CC2531 Adaptor</li>
 </ol>
 
