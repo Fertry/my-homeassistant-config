@@ -1,7 +1,7 @@
 <h1> My Home Assistant config </h1>
 
 <h2> My Home Assistant Configuration 🏡 </h2>
-<p><a href="https://www.home-assistant.io">HASS</a> is installed on a <a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b">Raspberry Pi 4B+</a> with 2GB of RAM and 32GB Micro-SD card. Actually running version 0.111.4.</p>
+<p><a href="https://www.home-assistant.io">HASS</a> is installed on a <a href="https://amzn.to/332ACQD">Raspberry Pi 4B</a> with 2GB of RAM and 32GB Micro-SD card. Actually running version 0.114.4 (August 26, 2020).</p>
 
 <h2> Things running on HASS ⭐ </h2>
 
