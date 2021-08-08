@@ -152,7 +152,7 @@
 <div align="left" id="todo">
 
   <a name="todo">
-    <h3> TO-DO </h3>
+    <h3> TO-DO 📘 </h3>
   </a>
 
   <p>Pending things... you can check the Github project page here</p>
