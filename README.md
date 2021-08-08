@@ -31,8 +31,8 @@
   <table>
     <tr>
       <th>Intel NUC Barebone</th>
-      <th>MicroSD-Card 32GB</th>
-      <th>Power Adaptor 5V-3A</th>
+      <th>2666MHz DDR4 RAM</th>
+      <th>120GB 2,5" SATA SSD</th>
     </tr>
     <tr>
       <th><a href="https://amzn.to/3fKqTWx" target="_blank"><img src="https://m.media-amazon.com/images/I/41Ij8HhMqVL._AC_SL1023_.jpg" width=120 height=120/></a></th>
