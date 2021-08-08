@@ -1,0 +1,1 @@
+<p>This folder is created by ESPHome and includes a bunch of files needed for the compilation and work of each device.</p>

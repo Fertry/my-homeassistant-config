@@ -1,0 +1,1 @@
+<p>System's folder that stores dependencies used by Home Assistant</p>

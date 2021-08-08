@@ -1,0 +1,1 @@
+<p>System's folder that is automatically created when TTS (Text-to Speach) is enabled in Home Assistant.</p> 

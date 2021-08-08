@@ -1,0 +1,1 @@
+<p>Netdaemon are sandboxed environments for .NET/C# applications that can be executed in Home Assistant. It allows the creation of automation scripts in C#. These can be seen as apps for HASS in the same way as Appdaemons. This folder is created by <a href="https://hacs.xyz/" target="_blank">HACS</a>.</p>

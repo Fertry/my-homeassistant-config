@@ -1,0 +1,1 @@
+<p>System's folders that are hidden by default on the explorer. The <b>storage</b> folder is used by add-ons running on HASS.</p>

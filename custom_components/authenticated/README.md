@@ -1,0 +1,1 @@
+<a href="https://github.com/custom-components/authenticated" target="_blank">Authenticated</a> (for controlling which devices are authorized to log-in)

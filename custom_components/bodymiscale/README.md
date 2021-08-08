@@ -1,0 +1,1 @@
+<a href="https://github.com/dckiller51/bodymiscale" target="_blank">Bodymiscale</a> (for extrapolating data from a Xiaomi Mi Scale 1/2; also requires the <b>config/components</b> folder to exist)

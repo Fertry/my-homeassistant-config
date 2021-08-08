@@ -1,0 +1,1 @@
+<p>Custom theme for the Lovelace interface made by @juanmtech (Website: <a href="https://www.juanmtech.com" target="_blank">https://www.juanmtech.com</a>)</p>

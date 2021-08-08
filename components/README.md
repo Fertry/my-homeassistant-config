@@ -1,0 +1,1 @@
+<p>The <b>components</b> folder is necessary for the installation of some custom_components such as the <b>bodymiscale</b> that I'm using from <a href="https://github.com/dckiller51/bodymiscale" target="_blank">dckiller51/bodymiscale</a>.</p>

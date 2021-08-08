@@ -1,0 +1,56 @@
+esphome:
+  name: esp32
+  platform: ESP32
+  board: esp-wrover-kit
+
+wifi:
+  ssid: !secret my_wifi
+  password: !secret my_wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: !secret my_esp_ap
+    password: !secret my_esp_ap_password
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: !secret API_password
+
+# OTA Access
+ota:
+  password: !secret OTA_password
+
+# Bluetooth enabled
+esp32_ble_tracker:
+
+# Sensors:
+sensor:
+
+  - platform: xiaomi_lywsdcgq
+    mac_address: !secret xiaomi_mijia_thermomether_MAC
+    temperature:
+      name: "Temperatura Habitación"
+      unit_of_measurement: "°C"
+      accuracy_decimals: 1
+    humidity:
+      name: "Humedad Habitacion"
+      unit_of_measurement: "%"
+      accuracy_decimals: 1
+      
+  - platform: xiaomi_miscale2
+    mac_address: !secret xiaomi_mi_scale_2_MAC
+    weight:
+      name: "Xiaomi Mi Scale Weight"
+      unit_of_measurement: 'kg'
+      icon: mdi:weight-kilogram
+      accuracy_decimals: 2
+    impedance:
+      name: "Xiaomi Mi Scale Impedance"
+      unit_of_measurement: 'ohm'
+      icon: mdi:omega
+  

@@ -1,0 +1,5 @@
+<p>The <b>esphome</b> is created by the <a href="https://esphome.io/" target="_blank">ESPHome</a> add-on. ESPHome is a custom firmware for ESP8266/ESP32 devices that allow them to be native-integrated into Home Assistant and allow you to integrate multiple Arduino sensors and other devices into your system.</p>
+
+<p>I use an <a href="https://amzn.to/3iyt2GF" target="_blank">ESP32</a> with ESPHome flashed as a Bluetooth beacon so I can extract data from a <a href="https://amzn.to/3CudnzN" target="_blank">Xiaomi Mijia Thermomether</a> (that only uses Bluetooth) as well as controlling a <a href="https://amzn.to/3fIOiHA" target="_blank">Xiaomi Mi Scale 2</a> and others.</p>
+
+<p>Inside the folder you can storage external fonts like <b>Arial.ttf</b> in order to be used by devices that incorporate screens. There's also a hidden folder <b>.esphome</b> created by ESPHome itself that stores .json files for each device and there's also one .yaml file for each device that details it's configuration.</p>

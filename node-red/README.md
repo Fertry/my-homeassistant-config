@@ -1,0 +1,1 @@
+<p>This folder is automatically created by the Node-RED integration. NodeRED is a programming tool for creating automations in a very visual environment (using what's called <b>flows</b>).</p>

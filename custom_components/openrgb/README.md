@@ -1,0 +1,1 @@
+<a href="https://github.com/koying/openrgb_ha" target="_blank">OpenRGB</a> (for controlling RGB equipment vía open software)

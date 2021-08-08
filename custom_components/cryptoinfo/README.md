@@ -1,0 +1,1 @@
+<a href="https://github.com/heyajohnny/cryptoinfo" target="_blank">Cryptoinfo</a> (for gathering info about different cryptocurrencies)

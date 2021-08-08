@@ -1,0 +1,1 @@
+<p>Glances is a system monitoring tool made in Python that can extract tons of data from the device where Home Assistant is installed, but also can read data from other devices in the network that runs Glances in server mode, so you can monitor multiples devices.</p>

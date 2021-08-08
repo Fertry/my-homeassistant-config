@@ -1,0 +1,1 @@
+<p>System's folders that are hidden by default on the explorer.</p>

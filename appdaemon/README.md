@@ -1,0 +1,1 @@
+<p>Appdaemons are sandboxed python environment for creating automation scripts. These can be seen as apps for HASS. This folder is created by <a href="https://hacs.xyz/" target="_blank">HACS</a>.</p>

@@ -1,0 +1,1 @@
+<p>Blueprints are pre-made automations for Home Assistant introduced recently. Blueprints created via the Lovelace interface will show up here.</p>

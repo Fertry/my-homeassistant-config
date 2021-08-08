@@ -1,0 +1,1 @@
+<a href="https://github.com/nielsfaber/alarmo" target="_blank">Alarmo</a> (easy to set-up alarms for Home Assistant based on sensors)
