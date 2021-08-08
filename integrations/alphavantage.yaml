@@ -1,7 +1,0 @@
-sensor:
-  - platform: alpha_vantage
-    api_key: !secret alphavantage_api
-    foreign_exchange:
-      - from: BTC
-        to: EUR
-        name: Bitcoin

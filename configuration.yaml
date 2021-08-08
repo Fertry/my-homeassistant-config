@@ -1,125 +1,102 @@
-# Configuración por defecto:
 homeassistant:
-  name: Home
-  latitude: !secret home_latitude
-  longitude: !secret home_longitude
-  elevation: !secret elevation 
-  unit_system: metric
-  temperature_unit: C
-  time_zone: !secret timezone
   packages: !include_dir_named integrations
   customize: !include customize.yaml
-  
-lovelace:
-  mode: yaml
-  
-frontend:
-  themes: !include_dir_merge_named themes
-  javascript_version: latest
-  
-person:
-  - name: Alejandro
-    id: !secret id
-    device_trackers:
-      - device_tracker.my_phone
-      
-weather:
-  - platform: openweathermap
-    api_key: !secret openweathermapkeyforweather
-    mode: daily
-    
-updater:
-  include_used_components: true
-  
+
+api:
 config:
 conversation:
 history:
 logbook:
 map:
 mobile_app:
-api:
+person:
 ssdp:
 sun:
-http:
 stream:
 system_health:
-zeroconf:
 discovery:
 media_extractor:
+zeroconf:
+cloud:
+webhook:
+dhcp:
+updater:
 
-# Otras ubicaciones:
-zone:
-  - name: Location 1
-    latitude: !secret location1_latitude 
-    longitude: !secret location1_longitude  
-    radius: 100
+# Remote access
+http:
+  ssl_certificate: !secret ssl_certificate
+  ssl_key: !secret ssl_key
+  ip_ban_enabled: true
+  login_attempts_threshold: 5
 
-  - name: Location 2
-    latitude: !secret location2_latitude 
-    longitude: !secret location2_longitude  
-    radius: 100
+recorder:
+  purge_keep_days: 10
+  purge_interval: 1
 
-  - name: Location 3
-    latitude: !secret location3_latitude 
-    longitude: !secret location3_longitude  
-    radius: 100
+frontend:
+  themes: !include_dir_merge_named themes
 
-# Text to speech:
+# Text to speech
 tts:
   - platform: google_translate
     language: es
 
-# Google:
-google:
-  client_id: !secret googleID
-  client_secret: !secret googleSecret
-  track_new_calendar: true
-
-# InfluxDB:
+# InfluxDB
 influxdb:
-  host: a0d7b954-influxdb
-  port: 8086
-  database: !secret database
-  username: !secret influxUser
-  password: !secret influxPass
+  host: !secret influx_host
+  port: !secret influx_port
+  database: !secret influxDB
+  username: !secret influxDBusername
+  password: !secret influxDBpassword
   max_retries: 3
   default_measurement: state
 
-# Icons for Home Assistant:
+# Panel lateral
 panel_iframe:
   tautulli:
-    title: Tautulli
+    title: "Tautulli"
     icon: mdi:filmstrip
-    url: http://ip_from_tautulli:8181
+    url: !secret tautulli_URL
+  networkmap:
+    title: "Zigbee Map"
+    url: !secret zigbee_URL
+    icon: "mdi:graphql"
 
-# Add:
-group: !include groups.yaml
-automation: !include automations.yaml
-script: !include scripts.yaml
-scene: !include scenes.yaml
+# Otras ubicaciones
+zone:
+  - name: Secret Place
+    latitude: !secret latitude
+    longitude: !secret longitude
+    radius: 100
 
-# HACS:
-hacs:
-  token: !secret hacs_token
-  sidepanel_title: HACS
-  sidepanel_icon: mdi:alpha-c-box
+# Google Calendar
+google:
+  client_id: !secret googleCalendarId
+  client_secret: !secret googleCalendarSecret
+  track_new_calendar: true
+
+# Notify
+notify_events:
+  token: !secret notifyApi
+
+# HACS
+hacs: 
+  token: !secret tokenHacs
+  sidepanel_title: "HACS"
+  sidepanel_icon: "mdi:alpha-c-box"
   appdaemon: true
   netdaemon: true
   release_limit: 5
   experimental: true
 
-# Xiaomi Gateways: No longer supported. Now integrated via Lovelace
-#xiaomi_aqara:
-#  discovery_retry: 15
-#  gateways:
-#    - key: !secret keyAqaraV2
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+input_boolean: !include input_boolean.yaml
+timer: !include timer.yaml
+sensor: !include sensor.yaml
+input_text: !include input_text.yaml
 
-# Switch:
-sonoff:
-  username: !secret eweLinkUser
-  password: !secret eweLinkPass
-  scan_interval: 60
-  grace_period: 600
-  api_region: 'eu'
-  entity_prefix: true
-  debug: false
+# Otros
+bodymiscale: !include components/bodymiscale.yaml

@@ -1,8 +1,0 @@
-sensor:
-- platform: plex_recently_added
-  token: !secret plexToken
-  host: !secret plex_host
-  port: 32400
-  max: 5
-  ssl: false
-  

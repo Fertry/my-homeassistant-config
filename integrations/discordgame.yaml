@@ -1,7 +1,0 @@
-sensor:
-  - platform: discord_game
-    token: !secret secretDiscordBotToken
-    image_format: webp           
-    members:
-      - !secret my_discord_username
-      
