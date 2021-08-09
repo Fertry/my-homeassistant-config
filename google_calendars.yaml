@@ -1,0 +1,6 @@
+- cal_id: !secret calendar_ID
+  entities:
+  - device_id: festivos_en_espana
+    ignore_availability: true
+    name: "Festivos en Espa\xF1a"
+    track: true

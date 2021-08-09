@@ -1,0 +1,1 @@
+<a href="https://github.com/postlund/search-card" target="_blank">Search card</a>

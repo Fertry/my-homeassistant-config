@@ -1,0 +1,1 @@
+<a href="https://github.com/custom-cards/button-card" target="_blank">Button card</a>

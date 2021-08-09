@@ -1,0 +1,1 @@
+<a href="https://github.com/custom-cards/spotify-card" target="_blank">Spotify card</a>

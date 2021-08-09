@@ -1,0 +1,4 @@
+- platform: mqtt
+  name: Bridge status
+  state_topic: "zigbee2mqtt/bridge/state"
+  icon: mdi:router-wireless

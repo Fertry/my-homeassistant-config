@@ -1,0 +1,1 @@
+<a href="https://github.com/thomasloven/lovelace-card-tools" target="_blank">Lovelace card tools</a>

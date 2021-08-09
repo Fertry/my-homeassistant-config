@@ -1,0 +1,1 @@
+<a href="https://github.com/custom-cards/stack-in-card" target="_blank">Stack-in card</a>

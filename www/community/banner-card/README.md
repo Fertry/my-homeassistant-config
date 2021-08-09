@@ -1,0 +1,1 @@
+<a href="https://github.com/nervetattoo/banner-card" target="_blank">Banner card</a>

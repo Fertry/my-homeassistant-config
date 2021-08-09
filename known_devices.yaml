@@ -1,0 +1,7 @@
+ca_ca_ca_ca_ca_ca:
+  name: !secret secret_name
+  mac: !secret device_mac
+  icon: !secret icon
+  picture: !secret picture
+  track: true
+  

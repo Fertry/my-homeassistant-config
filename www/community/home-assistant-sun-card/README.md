@@ -1,0 +1,1 @@
+<a href="https://github.com/AitorDB/home-assistant-sun-card" target="_blank">Sun card</a>

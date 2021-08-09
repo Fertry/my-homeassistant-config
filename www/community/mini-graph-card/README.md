@@ -1,0 +1,1 @@
+<a href="https://github.com/kalkih/mini-graph-card" target="_blank">Mini graph card</a>
