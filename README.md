@@ -31,7 +31,7 @@
   <table>
     <tr>
       <th>Intel NUC Barebone</th>
-      <th>2666MHz DDR4 RAM</th>
+      <th>2x 4GB 2666MHz DDR4 RAM</th>
       <th>120GB 2,5" SATA SSD</th>
     </tr>
     <tr>
@@ -94,12 +94,14 @@
       <th>2x Google Home Mini</th>
       <th>Plex Media Server</th>
       <th>Synology DSM</th>
+      <th>Raddar, Sonarr & Liddar</th>
     </tr>
     <tr>
       <th><a href="https://store.google.com/product/chromecast" target="_blank"><img src="https://i5.walmartimages.com/asr/ce02c3e2-ddb0-48ce-9519-1870901b3b15_3.dfbbf2da6fa65c08bf68a650edc5ee03.jpeg" width=120 height=120/></a></th>
       <th><a href="https://support.google.com/googlenest/answer/7072284?hl=en" target="_blank"><img src="https://i5.walmartimages.ca/images/Large/664/833/6000197664833.jpg?odnBound=460" width=120 height=120/></a></th>
       <th><a href="https://www.plex.tv/es/?langr=1" target="_blank"><img src="https://ih0.redbubble.net/image.197089200.4025/sticker,375x360-bg,ffffff.png" width=120 height=120/></a></th>
       <th><a href="https://amzn.to/3i5DEKo" target="_blank"><img src="https://www.synology.com/img/products/detail/DS720plus/heading@2x.png" width=120 height=120/></a></th>
+      <th><a href="https://sonarr.tv/" target="_blank"><img src="https://avatars3.githubusercontent.com/u/1082903?v=3&s=400" width=120 height=120/></a></th>
     </tr>
   </table>
 
@@ -116,11 +118,15 @@
       <th>Zigbee CC2531 USB</th>
       <th>Z-Wave USB</th>
       <th>TP-Link C100 Camera</th>
+      <th>ESP32 Camera Module</th>
+      <th>Magic Home Controller</th>
     </tr>
     <tr>
       <th><a href="https://amzn.to/3h17cHP" target="_blank"><img src="https://m.media-amazon.com/images/I/517Cxxcn-LL._AC_SL1000_.jpg" width=120 height=120/></a></th>
       <th><a href="https://amzn.to/3lN2kvN" target="_blank"><img src="https://m.media-amazon.com/images/I/61+d+A4ygIL._AC_SL1500_.jpg" width=120 height=120/></a></th>
       <th><a href="https://amzn.to/3AsGhPj" target="_blank"><img src="https://m.media-amazon.com/images/I/61Nkt+sPmoL._AC_SL1000_.jpg" width=120 height=120/></a></th>
+      <th><a href="https://amzn.to/3lPFR1b" target="_blank"><img src="https://m.media-amazon.com/images/I/81tp6MKahqL._AC_SL1500_.jpg" width=120 height=120/></a></th>
+      <th><a href="https://amzn.to/2VzUBGV" target="_blank"><img src="https://m.media-amazon.com/images/I/51nyrR3+c8L._AC_SL1001_.jpg" width=120 height=120/></a></th>
     </tr>
   </table>
 
@@ -137,11 +143,13 @@
       <th>Bagotte Switch</th>
       <th>Sonoff Switch</th>
       <th>Sonoff Basic</th>
+      <th>TP-Link HS110</th>
     </tr>
     <tr>
       <th><a href="https://amzn.to/2DzVF4p" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/51iBqwo6UBL._AC_SL1083_.jpg" width=120 height=120/></a></th>
       <th><a href="https://amzn.to/2R0ij9b" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/41euo4NNauL._AC_SL1000_.jpg" width=120 height=120/></a></th>
       <th><a href="https://amzn.to/3ivwvWj" target="_blank"><img src="https://m.media-amazon.com/images/I/610g5Gke7aL._AC_SL1500_.jpg" width=120 height=120/></a></th>
+      <th><a href="https://amzn.to/3Ay3vnc" target="_blank"><img src="https://m.media-amazon.com/images/I/51u0GrwKW3L._AC_SL1333_.jpg" width=120 height=120/></a></th>
     </tr>
   </table>
 
@@ -155,10 +163,10 @@
     <h3> TO-DO 📘 </h3>
   </a>
 
-  <p>Pending things... you can check the Github project page here</p>
+  <p>Pending things... you can check the Github project page here:</p>
 
   <a href="https://github.com/users/Fertry/projects/10" target="_blank">
-    <img src="https://fertry.tech/wp-content/uploads/2021/03/Github-proyectos.png" width="200" height="200"></img>
+    <img src="https://fertry.tech/wp-content/uploads/2021/03/Github-proyectos.png" width="380" height="200"></img>
   </a>
 
 </div>
