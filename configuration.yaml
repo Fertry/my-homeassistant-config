@@ -21,6 +21,10 @@ cloud:
 webhook:
 dhcp:
 updater:
+blueprint:
+tag:
+energy:
+utility_meter:
 
 # Remote access
 http:
@@ -69,6 +73,7 @@ zone:
     latitude: !secret latitude
     longitude: !secret longitude
     radius: 100
+    icon: mdi:home-city
 
 # Google Calendar
 google:
@@ -84,7 +89,7 @@ notify_events:
 hacs: 
   token: !secret tokenHacs
   sidepanel_title: "HACS"
-  sidepanel_icon: "mdi:alpha-c-box"
+  sidepanel_icon: "mdi:store"
   appdaemon: true
   netdaemon: true
   release_limit: 5
