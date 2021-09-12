@@ -53,7 +53,7 @@
     <tr>
       <th>3x Xiaomi Mijia Thermometer (2020)</th>
       <th>1x Xiaomi Mijia Thermometer (2019)</th>
-      <th>1x ESP32</th>
+      <th>1x ESP32 running ESPHome</th>
       <th>2x Xiaomi Mijia Movement Sensor</th>
     </tr>
     <tr>
@@ -73,6 +73,18 @@
       <th><a href="https://amzn.to/3fL22BI" target="_blank"><img src="https://m.media-amazon.com/images/I/31DvcMVPhwL._AC_.jpg" width=120 height=120/></a></th>
       <th><a href="https://amzn.to/3s20wjI" target="_blank"><img src="https://m.media-amazon.com/images/I/41Vv9-NKkIL._AC_SL1000_.jpg" width=120 height=120/></a></th>
       <th><a href="https://amzn.to/2Vs3Qcd" target="_blank"><img src="https://m.media-amazon.com/images/I/61W2db81USL._AC_SL1500_.jpg" width=120 height=120/></a></th>
+    </tr>
+    <tr>
+      <th>1x Xiaomi Mi Flora HHCCJCY01</th>
+      <th>1x Xiaomi Mi Band 5</th>
+      <th>2x Gledopto LED RGBWW Controller</th>
+      <th>1x Aqara ‎SSM-U01 Relé con neutro</th>
+    </tr>
+    <tr>
+      <th><a href="https://amzn.to/3k6fp2g" target="_blank"><img src="https://m.media-amazon.com/images/I/611xSwzj5hL._AC_SL1000_.jpg" width=120 height=120/></a></th>
+      <th><a href="https://amzn.to/2XmynJ7" target="_blank"><img src="https://m.media-amazon.com/images/I/71KsTiNXbdL._AC_SL1500_.jpg" width=120 height=120/></a></th>
+      <th><a href="https://amzn.to/3k6kCXS" target="_blank"><img src="https://m.media-amazon.com/images/I/61IgRGT7+ML._AC_SL1500_.jpg" width=120 height=120/></a></th>
+      <th><a href="https://amzn.to/3EeIW1M" target="_blank"><img src="https://m.media-amazon.com/images/I/31EEJyelXyL._AC_.jpg" width=120 height=120/></a></th>
     </tr>
   </table>
 

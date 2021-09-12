@@ -25,11 +25,23 @@ api:
 ota:
   password: !secret OTA_password
 
-# Bluetooth enabled
+# Bluetooth BLE enabled
 esp32_ble_tracker:
 
 # Sensors:
+   
+  # Mi Band 5 
+  # Xiaomi LYWSDCGQ Termo-higrómetro
+  # x3 Xiaomi LYWSD03MMC Termo-higrómetro
+  # Xiaomi Mi Scale 2
+  # Xiaomi HHCCJCY01 MiFlora
+  # DHT12 sensor
+
 sensor:
+
+  - platform: ble_rssi
+    mac_address: !secret mi_band_5_MAC
+    name: "Mi Band 5 RSSI value"
 
   - platform: xiaomi_lywsdcgq
     mac_address: !secret xiaomi_mijia_thermomether_MAC
@@ -41,7 +53,23 @@ sensor:
       name: "Humedad Habitacion"
       unit_of_measurement: "%"
       accuracy_decimals: 1
-      
+
+  # x3
+  - platform: atc_mithermometer
+    mac_address: 'X:X:X:X:X:X'
+    temperature:
+      name: "Temperatura Habitación"
+      unit_of_measurement: "°C"
+      accuracy_decimals: 1
+    humidity:
+      name: "Humedad Habitación"
+      unit_of_measurement: "%"
+      accuracy_decimals: 1
+    battery_level:
+      name: "Batería Habitación"
+    battery_voltage:
+      name: "Voltaje Habitación"
+
   - platform: xiaomi_miscale2
     mac_address: !secret xiaomi_mi_scale_2_MAC
     weight:
@@ -53,4 +81,32 @@ sensor:
       name: "Xiaomi Mi Scale Impedance"
       unit_of_measurement: 'ohm'
       icon: mdi:omega
-  
+
+  - platform: dht
+    pin: GPIO15
+    temperature:
+      name: "Temperatura Habitación"
+      accuracy_decimals: 2
+    humidity:
+      name: "Humedad Habitación"
+      accuracy_decimals: 2
+    update_interval: 60s
+    
+  - platform: xiaomi_hhccjcy01
+    mac_address: 'X:X:X:X:X:X'
+    temperature:
+      name: "Temperatura Planta"
+    moisture:
+      name: "Terreno Planta"
+    illuminance:
+      name: "Iluminación Planta"
+    conductivity:
+      name: "Conductividad Planta"
+    battery_level:
+      name: "Batería Planta"  
+
+# Sensores binarios
+binary_sensor:
+  - platform: ble_presence
+    mac_address: !secret mi_band_5_MAC
+    name: "Mi Band 5 BLE Presence"
