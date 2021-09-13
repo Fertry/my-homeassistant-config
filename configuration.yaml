@@ -95,6 +95,10 @@ hacs:
   release_limit: 5
   experimental: true
 
+# Lights
+light:
+  - platform: flux_led
+
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
