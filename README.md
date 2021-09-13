@@ -78,7 +78,7 @@
       <th>1x Xiaomi Mi Flora HHCCJCY01</th>
       <th>1x Xiaomi Mi Band 5</th>
       <th>2x Gledopto LED RGBWW Controller</th>
-      <th>1x Aqara ‎SSM-U01 Relé con neutro</th>
+      <th>1x Aqara ‎SSM-U01 Relé with neutral</th>
     </tr>
     <tr>
       <th><a href="https://amzn.to/3k6fp2g" target="_blank"><img src="https://m.media-amazon.com/images/I/611xSwzj5hL._AC_SL1000_.jpg" width=120 height=120/></a></th>
